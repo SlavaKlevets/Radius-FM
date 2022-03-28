@@ -1,0 +1,65 @@
+.a1{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    margin: 0px;
+}
+.f1{
+    position: relative;
+    left: 10px;
+
+}
+
+.wrapper{
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+.wrapper01{
+    width:100% ;
+    overflow: hidden;
+}
+.wrapper0{
+    position: relative;
+    width:500% ;
+    display: flex;
+    transition: 2s;
+}
+
+.wrapper1{
+    position: relative;
+    width: 100%;
+    margin: 0 auto; 
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.btn1,.btn2{
+    width: 30px;
+    height: 42px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    border: none;
+}
+
+.btn1{
+    top: 10%;
+    right: 20px;
+}
+
+.btn2{
+    transform: rotate(180deg);
+    top: 10%;
+    left: 20px;
+}
+@media (max-width:1500px) {
+    .btn1,.btn2{
+        display: none;
+    }
+}

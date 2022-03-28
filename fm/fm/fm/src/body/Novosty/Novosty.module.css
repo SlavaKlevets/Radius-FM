@@ -1,0 +1,108 @@
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+    display: block;
+}
+.muz{
+    position: relative;
+    left: 190px;
+}
+.wrapper22{
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+}
+.h11{
+    position: relative;
+    left: 20%;
+    font-size: 45px;
+}
+.i{
+    position: relative;
+    margin-top: 20px;
+    height: 40px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    text-decoration: none;
+    top: 20px;
+    left: 600px;
+    color: #161c29;
+    padding: 0px 20px;
+}
+.i:hover{
+    border: 3px solid darkorange;
+    border-radius: 25px;
+}
+.wrapper4{
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.wrapper5{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 90%;
+}
+.wrapper3{
+    margin: 0 auto;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.wrapper2{
+    display: flex;
+    width: 80%;
+}
+
+.h11{
+    position: relative;
+    left: 20%;
+}
+img{
+    margin: 5px;
+}
+.imag{
+    width: 400px;
+    cursor: pointer;
+}
+
+.musik{
+    font-weight: 600;
+    font-size: 20px;
+}
+.i2{
+    position: relative;
+    left: 23%;
+    top: 50px;
+    color: #d98610;
+}
+.i2:hover{
+    color: #f63b7c;
+}
+@media (max-width:1000px){
+    .wrapper{
+        width: 98%;
+    }
+    .wrapper5{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+@media (max-width:1300px){
+    .wrapper{
+        margin: 0 auto;
+        justify-content: center;
+        width: 80%;
+    }
+    .muz{
+        position: relative;
+        left: 100px;
+    }
+
+}

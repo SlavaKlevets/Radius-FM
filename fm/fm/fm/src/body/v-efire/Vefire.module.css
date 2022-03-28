@@ -1,0 +1,110 @@
+.ddd {
+    position: relative;
+    width: 100%;
+}
+
+.muz {
+    position: relative;
+    left: 10%;
+    height: 70px;
+}
+
+.poslushat {
+    position: relative;
+    top: 40px;
+    left: 15%;
+    color: sandybrown;
+}
+
+.data {
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    height: auto;
+}
+
+.wraper4 {
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.wraper5 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 90%;
+}
+
+.wrapper1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper2 {
+    display: flex;
+    width: 40%;
+    height: auto;
+}
+
+.h11 {
+    position: relative;
+    left: 10%;
+}
+
+img {
+    margin: 5px;
+}
+
+.imag {
+    width: 200px;
+}
+
+.musik {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.date {
+    width: 180px;
+    height: 30px;
+    border: 1px solid #ff5900;
+    border-radius: 4px;
+}
+
+.cart1:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 210px;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .ddd {
+        width: 100%;
+        height: auto;
+    }
+
+    .wraper5 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wrapper1 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .wrapper2 {
+        display: flex;
+        width: 40%;
+        height: auto;
+    }
+
+    .data {
+        height: 100px;
+    }
+}

@@ -1,0 +1,104 @@
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+    display: block;
+}
+.muz{
+    position: relative;
+    left: 190px;
+}
+
+.wrapper4{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    overflow:auto;
+}
+
+
+.wrapper5{
+    display: flex;
+    margin: 0 auto;
+    width: 99%;
+
+
+}
+
+.wrapper4::-webkit-scrollbar{
+    width: 2px;
+    height: 10px;
+}
+.wrapper4::-webkit-scrollbar-track{
+    background: antiquewhite;
+    width: 2px;
+}
+
+.wrapper4::-webkit-scrollbar-thumb{
+    background:linear-gradient(to bottom,#FAC506 ,#FAC306);
+    border-radius: 8px;
+    height: 2px;
+    border: 1px solid antiquewhite;
+}
+
+
+
+
+
+.wrapper3{
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 2px;
+    overflow:hidden;
+    width: 87%;
+}
+
+.wrapper2{
+    display: flex;
+    width: 80%;
+}
+
+.h11{
+    position: relative;
+    left: 20%;
+}
+img{
+    margin: 5px;
+}
+.imag{
+    width: 200px;
+}
+
+.musik{
+    font-weight: 600;
+    font-size: 20px;
+}
+.cart1:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 210px;
+    cursor: pointer;
+}
+
+
+@media (max-width:1000px){
+    .wrapper{
+        width: 98%;
+    }
+    .wrapper5{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+@media (max-width:1300px){
+    .wrapper{
+        margin: 0 auto;
+        justify-content: center;
+        width: 80%;
+    }
+    .muz{
+        position: relative;
+        left: 100px;
+    }
+
+}

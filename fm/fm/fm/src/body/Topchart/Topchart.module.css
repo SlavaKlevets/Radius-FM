@@ -1,0 +1,191 @@
+.wraper2{
+    display: flex;
+}
+.wrapper{
+    display: block;
+    width: 100%;
+    background: url("https://radiusfm.by/assets/img/base/main-hits--bg.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+}
+
+.naushnic{
+    position: relative;
+    top: 50px;
+    left: -150px;
+}
+.divchart{
+    position: relative;
+    left: 5%;
+    width: 800px;
+    height: auto;
+}
+.wr1{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: 200px;
+}
+.CHART{
+    position: relative;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    width: 500px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 80px;
+    line-height: 1.1;
+    background: #ff7700;
+    background: -webkit-gradient(linear, left top, right top, from(#ff5900), to(#fac506));
+    background: linear-gradient(to right, #ff6600 0%, #fac306 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f44455', endColorstr='#fac306', GradientType=1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.music{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: #ff5900;
+    left: 0%;
+    top:20px;
+    overflow: auto;
+}
+.music::-webkit-scrollbar{
+    width: 5px;
+
+}
+.music::-webkit-scrollbar-track{
+    background: antiquewhite;
+    width: 5px;
+}
+
+.music::-webkit-scrollbar-thumb{
+    background:linear-gradient(to bottom,#FAC506 ,#FAC306);
+    border-radius: 8px;
+    border: 1px solid antiquewhite;
+}
+
+.music1{
+    position: relative;
+    width: 98%;
+    height: 100px;
+    background-color: white;
+    text-align: left;
+    border: 1px solid black;
+    margin: 2px;
+    margin-left: 5px;
+    background-size: 100%;
+}
+.ds{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    color: #9d9d9d;
+    font-weight: bold;
+    width: 50px;
+
+}
+.mage{
+    cursor: pointer;
+}
+.button{
+    position: relative;
+    z-index: 5;
+    top: 40px;
+    margin: 0 auto;
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: 17px;
+    background: -webkit-gradient(linear, left top, right top, from(#ff5900), to(#fac506));
+    background: linear-gradient(to right, #ff6600 0%, #fac306 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f44455', endColorstr='#fac306', GradientType=1);
+    -webkit-background-clip: padding-box;
+    color: black;
+}
+.button:hover{
+    background: -webkit-gradient(linear, left top, right top, from(#ffa200), to(#fa6806));
+    background: linear-gradient(to right, #ffbf00 0%, #fa8406 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f44455', endColorstr='#fac306', GradientType=1);
+    -webkit-background-clip: padding-box;
+    color: black;
+}
+
+.img{
+    position: relative;
+    top:-50px;
+    left: 40px;
+    cursor: pointer;
+}
+.sss{
+    z-index: 1;
+    position: relative;
+    top: -150px;
+    left: 150px;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+}
+.colt{
+    width: 500px;
+    font-weight: 100;
+    position: relative;
+    left: 50px;
+    text-align: left;
+    color: whitesmoke;
+}
+.Play{
+    margin-right: 5px;
+}
+.Stop{
+    margin-left: 5px;
+}
+
+@media (max-width:1400px) {
+    .wraper2 {
+        height: max-content;
+    }
+}
+@media (max-width:1100px) {
+    .wrapper {
+       height: 600px;
+       width: 100%;
+    }
+    .divchart{
+        display: none;
+    }
+    .music{
+        position: relative;
+        width: 500px;
+        height: 400px;
+        background-color: #ff5900;
+        margin: 0 auto;
+        overflow: auto;
+        justify-content: center;
+    }
+    .wraper2 {
+        margin: 0 auto;
+        justify-content: center;
+        display: block;
+        height: auto;
+    }
+    .button{
+        position: relative;
+        top: 30px;
+        justify-content: center;
+        margin: 0 auto;
+        left: 0px;
+
+    }
+}
+@media (max-width:900px) {
+    .wrapper {
+        height:500px;
+        width: 100%;
+    }
+}

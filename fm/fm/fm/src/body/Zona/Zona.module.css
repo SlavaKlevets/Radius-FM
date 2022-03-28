@@ -1,0 +1,67 @@
+.wrapper2{
+    display: flex;
+}
+.wrapper3{
+    position: relative;
+    left: 200px;
+    top:100px;
+    width:330px;
+    color: white;
+    font-size: 23px;
+    height: 70%;
+    text-align: left;
+    line-height: 1;
+}
+.button{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: 17px;
+    background: white;
+    color: black;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+}
+.img{
+    position: relative;
+    top:-50px;
+    left: 40px;
+    z-index: 2;
+}
+.ddd{
+    background: -webkit-gradient(linear, left top, right top, from(#ff0059), to(#fa8c06));
+    background: linear-gradient(to right, #ff0051 0%, #fab506 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f44455', endColorstr='#fac306', GradientType=1);
+    -webkit-background-clip: padding-box;
+    color: black;
+    height: 500px;
+
+}
+.it{
+    cursor: pointer;
+}
+.divchart{
+    position: relative;
+    background-size: contain;
+    background: url("https://radiusfm.by/assets/img/base/gradient-banner-bg-01.png");
+    width: 700px;
+    height: 100%;
+    background-repeat: no-repeat;
+    left: 20%;
+}
+@media (max-width:1250px) {
+    .wrapper3 {
+        display: none;
+    }
+    .divchart{
+        width: 600px;
+        position: relative;
+        left: 10%;
+    }
+}

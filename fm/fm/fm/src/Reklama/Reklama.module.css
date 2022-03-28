@@ -1,0 +1,101 @@
+.ddd{
+    position: relative;
+    width: 100%;
+    background-color: #e2e1e1;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.muz{
+    position: relative;
+    left: 10%;
+    top: 20px;
+    height: 70px;
+}
+.wraper3{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.wraper4{
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.wraper5{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 90%;
+    flex-wrap:wrap;
+}
+
+.wrapper1{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper2{
+    margin-left: 200px;
+    display: flex;
+    width: 40%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.h11{
+    position: relative;
+    left: 10%;
+    font-size: 45px;
+}
+
+.ul1{
+    display: block;
+    width: 80%;
+    padding-left: 15%;
+}
+.ul1>li{
+    font-weight: inherit;
+    list-style: disc;
+}
+.reklama{
+    width: 80%;
+    margin-left: 16%;
+}
+
+@media (max-width:1000px){
+    .ddd{
+        width: 100%;
+        height: auto;
+    }
+    .wraper5{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wrapper1{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .wrapper2{
+        display: flex;
+        width: 40%;
+        height: auto;
+    }
+}
+.bylo{
+    text-align: left;
+}
+.byloh1{
+    text-align: left;
+    padding-left: 280px;
+    font-size: 25px;
+}

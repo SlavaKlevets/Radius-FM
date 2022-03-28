@@ -1,0 +1,64 @@
+.wrapper{
+    background-color:#131722;
+    height: 70px;
+    background-size: 100%;
+}
+ul{
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+.hedlog{
+    width: 120px;
+    margin: 0px;
+    position: relative;
+    top:6px;
+}
+.active{
+    margin: 10px;
+    list-style:none ;
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    text-decoration: none;
+    color: azure;
+}
+.active:hover{
+    color: #f5cf10;
+}
+.saas{
+    padding-top: 12px;
+}
+@media (max-width:1260px){
+    .hedlog{
+        width: 80px;
+    }
+    .active{
+        font-size: 15px;
+    }
+    .wrapper{
+        height: 60px;
+        background-size: 100%;
+    }
+
+}
+@media (max-width:1000px){
+    .hedlog{
+        width: 60px;
+    }
+    .active{
+        font-size: 10px;
+    }
+    .wrapper{
+        height: 50px;
+        background-size: 100%;
+    }
+    .saas{
+        padding-top: 8px;
+    }
+}
+@media (max-width:750px){
+    .saas{
+        display: none;
+    }
+}
